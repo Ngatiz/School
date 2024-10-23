@@ -1,12 +1,10 @@
 <?php include 'header.php'?>
 <?php include 'nav.php'?>
+<?php include 'db.php'?>
+
 
 <?php
 session_start(); 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "School";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
